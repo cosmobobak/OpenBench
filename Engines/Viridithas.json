@@ -63,14 +63,14 @@
         },
 
         "SMP STC" : {
-            "options"       : "Threads=4 Hash=16",
+            "options"       : "Threads=4 Hash=64",
             "timecontrol"   : "8.0+0.08",
             "report_rate"   : 8,
             "workload_size" : 32
         },
 
         "SMP LTC" : {
-            "options"       : "Threads=4 Hash=128",
+            "options"       : "Threads=4 Hash=512",
             "timecontrol"   : "40.0+0.4",
             "report_rate"   : 2,
             "workload_size" : 8
